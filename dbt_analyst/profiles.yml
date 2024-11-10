@@ -1,0 +1,12 @@
+dbt_analyst:
+  outputs:
+    dev:
+      dbname: postgres
+      host: de_psql
+      pass: admin123
+      port: 5432
+      schema: public
+      threads: 1
+      type: postgres
+      user: admin
+  target: dev
